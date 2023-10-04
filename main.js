@@ -1,4 +1,4 @@
-import { helloworldFunction } from './helloworld';
+const helloworld = require('./helloworld')
 
-hello_string = helloworldFunction()
-console.log(hello_string)
+let helloworldclass = new helloworld()
+console.log(helloworldclass.helloworldFunction())
